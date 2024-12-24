@@ -8,8 +8,7 @@ map({ "n", "v" }, "<A-f>", function()
 end, { desc = "Format" })
 
 map("i", "jk", "<Esc>", { silent = true })
-
--- map("n", "x", "_x")
+map({ "i", "x", "n", "s" }, "<D-s>", "<cmd>w<cr><esc>", { desc = "Save File" }) -- map("n", "x", "_x")
 
 map("n", "+", "<C-a>")
 map("n", "_", "<C-x>")

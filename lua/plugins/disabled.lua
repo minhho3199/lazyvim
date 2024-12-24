@@ -7,22 +7,9 @@ return {
     },
   },
   {
-    "hrsh7th/nvim-cmp",
-    keys = {
-      { "<tab>", false, mode = { "i", "s" } },
-      { "<s-tab>", false, mode = { "i", "s" } },
-    },
-  },
-  {
     "nvim-lspconfig",
     opts = {
       inlay_hints = { enabled = false },
-    },
-  },
-  {
-    "telescope.nvim",
-    keys = {
-      { "<leader>gc", false },
     },
   },
   -- LSP keymaps
